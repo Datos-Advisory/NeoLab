@@ -1,0 +1,17 @@
+# Dependencies and builds
+node_modules/
+dist/
+build/
+
+# Local source material and proprietary assets
+tmp/
+*.nproj
+*.certificate
+*.pfx
+*.p12
+*.mobileprovision
+
+# Captures and exports may contain personal data
+captures/
+exports/
+*.neonote
