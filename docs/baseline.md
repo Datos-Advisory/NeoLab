@@ -10,6 +10,7 @@ Reviewed 2026-09-14. Direct source findings, proposals, and uncertainties are se
 - [NeoLAB technology](https://neolab-home.vercel.app/en/technology) says NeoLAB develops the Ncode/dot-code/smartpen stack and says developers can build Neo smartpen applications. This is a company claim, not an interoperability guarantee.
 - [NeoLAB partnership](https://neolab-home.vercel.app/en/partnership) lists education, publishing, stationery, medical, industrial, and finance and gives `global@neolab.net` for inquiries.
 - [NeoLAB Form Solutions](https://shop.neosmartpen.com/pages/solutions) describes Ncode forms, pen capture, Bluetooth/USB transfer, and structured Excel/CSV/JPEG output. It supports the use case but does not document a NeoLab API.
+- [DIY Ncode Printables](https://neolab.net/en/customer/ncode-pdf) supplies official ready-to-print Ncode PDFs. The page describes each as 50 pages and offers A4/A5 basic paper, planning templates, and storyboards. It recommends Adobe PDF Reader, a color laser printer, a PCL/PS driver, and a small recognition test before a full run. This is the approved public source for the listed ready-made forms; it does not grant NeoLab a right to modify, redistribute, allocate, or generate Ncode patterns.
 - The [NeoSmartpen GitHub organization](https://github.com/NeoSmartpen) publishes current SDK repos as well as legacy projects. The [iOS SDK 2 README](https://github.com/NeoSmartpen/IOS-SDK2.0/blob/master/README.md) and [iOS SDK 3 README](https://github.com/NeoSmartpen/iOS-SDK3.0/blob/master/README.md) state GPLv3/non-commercial and separate commercial licensing; confirm current terms directly with NeoLAB.
 - The user-provided [NISDK PDF](https://github.com/NeoSmartpen/IOS-SDK2.0/blob/master/NISDK.pdf) is a legacy iOS 2.3.5 SDK reference. It documents BLE, live/offline strokes, paper UI, nproj metadata, configuration, firmware, and older hardware. It is useful history, not the primary implementation target.
 
@@ -25,7 +26,7 @@ The historical Neo Notes specifications conflict in minor places: V1.0 has an op
 
 Start with ordinary, printable Daily Time Log and Daily Task List templates. A pen adapter will later convert a supported SDK's events into the same record model. NLP adds searchable suggestions after capture; it never overwrites raw strokes, transcribed text, or canonical fields.
 
-Ncode is a release gate: it requires written vendor approval for Ncode allocation, authoring, colour-separated printing, quality validation, current device/SDK support, and commercial licensing. Never describe a normal PDF as Ncode-ready.
+Ncode is a release gate for a **new NeoLab-designed Ncode form**: it requires written vendor approval for Ncode allocation, authoring, colour-separated printing, quality validation, current device/SDK support, and commercial licensing. Never describe a normal PDF as Ncode-ready. NeoLAB's linked DIY PDFs are an exception because NeoLAB supplies them as ready-to-print Ncode PDFs.
 
 ## Questions for a partnership discussion
 
