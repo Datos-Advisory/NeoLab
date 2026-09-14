@@ -9,6 +9,8 @@ NeoLab is a vendor-neutral project for structured daily paper templates and a fu
 
 Read [the evidence-based baseline](docs/baseline.md) and [the data contract](docs/data-contract.md) first.
 
+Official NeoLAB-ready Ncode downloads are catalogued in [Ncode papers](docs/ncode-papers.md). They are external vendor files; NeoLab links to them and does not redistribute them.
+
 ## Status
 
 Planning scaffold only. NeoLab has no NeoLAB endorsement, Ncode allocation, print approval, device-support guarantee, or commercial SDK license.
