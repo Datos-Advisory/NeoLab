@@ -14,6 +14,14 @@ The public guide describes this sequence:
 
 The Windows guide lists Windows 10 or later, Bluetooth 4.0 or later, Chrome, 2 GB memory, and 100 MB of storage. Treat these as vendor-published minimums, and confirm compatibility with the installed release before relying on them.
 
+## NeoStudio Web connection
+
+NeoStudio Web is the browser-facing part of this supported path. The vendor guide says NeoLAB Cloud must be running before signing in to NeoStudio Web; after login, the Cloud-connected device list is synchronized to the web application.
+
+Writing with an Ncode page using a pen connected through NeoLAB Cloud opens the matching page and displays handwriting in real time. The web app also documents page editing, bookmarks, and notebook locking/renaming.
+
+There is an important capture constraint: one connected pen is assigned to one NeoLAB service/window at a time. When NeoStudio and Grida Board are both open, NeoStudio takes priority until the user explicitly transfers the device. With multiple NeoStudio windows, the most recently opened window receives the connected-device list. For a reliable archive run, keep one NeoStudio Web window open and avoid switching the pen between services.
+
 ## MCP status
 
 `neolab-cloud-support` is configured as a Codex MCP server at GitBook's published MCP endpoint. It gives Codex access to the public NeoLAB Cloud support documentation.
@@ -47,4 +55,7 @@ Until NeoLAB confirms that path, the safe first integration is export/import rat
 - [Introduction to NeoLAB Cloud](https://neolabdev.gitbook.io/neolab-cloud_en/neolab-cloud-guide/introduction-to-neolab-cloud)
 - [Download and system requirements](https://neolabdev.gitbook.io/neolab-cloud_en/neolab-cloud-guide/introduction-to-neolab-cloud/download-neolab-cloud)
 - [NeoLAB Cloud user guide](https://neolabdev.gitbook.io/neolab-cloud_en/neolab-cloud-guide/how-to-use-neolab-cloud)
+- [NeoStudio Web connection guide](https://neolabdev.gitbook.io/neolab-cloud_en/connection-with-neostudio-web-1)
+- [NeoStudio Web real-time handwriting](https://neolabdev.gitbook.io/neolab-cloud_en/connection-with-neostudio-web-1/real-time-handwriting)
+- [Connected-service switching](https://neolabdev.gitbook.io/neolab-cloud_en/connection-with-neostudio-web-1/conncet-device-change-connected-services)
 - [NeoLAB Convergence](https://neolab.net/en)
