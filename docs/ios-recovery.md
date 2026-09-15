@@ -25,10 +25,23 @@ Use this procedure in order. The aim is to retain an independent device backup, 
 
 ## Migrate only after preservation
 
+NeoLAB's migration guide states that the following move from Neo Studio 2022 to Neo Studio 2:
+
+- notebooks, including their names, cover images, and handwritten pages;
+- recordings linked to pages;
+- tags assigned to pages.
+
+Favorites and recordings not linked to a page do not move. Export these separately before migration.
+
 1. Install Neo Studio 2 alongside the old app; do not remove Neo Studio 2022.
-2. Use Neo Studio 2's supported migration/import path and the same account where applicable.
-3. Compare notebook names, page counts, and a sample of handwriting/recordings against the inventory.
-4. Keep the original app and both encrypted backups until every important notebook has been checked.
+2. Confirm the same account is used in both apps. The vendor states that migration cannot proceed between different accounts.
+3. Fully close Neo Studio 2 before using the Neo Studio 2022 Web upload/migration step.
+4. Use the vendor-supported migration route.
+5. Compare notebook names, page counts, tags, and a sample of handwriting/recordings against the inventory.
+6. Neo Studio 2 initially deactivates Smartpen input for migrated notebooks. Enable it only after checking each notebook.
+7. Keep the original app and both encrypted backups until every important notebook has been checked.
+
+Source: [NeoLAB migration guide](https://neostudio2.notion.site/Migrating-Data-from-Neo-Studio-2022-to-Neo-Studio-2-13d3d08474398107aef0d9b4bc1a3cbf).
 
 ## Bring a local copy to NeoLab
 
