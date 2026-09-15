@@ -1,0 +1,19 @@
+{
+  "schema_version": "0.1",
+  "session_id": "example-daily-log-001",
+  "capture": {
+    "method": "neopen_adapter",
+    "source_artifact_sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+  },
+  "page": {
+    "section": 3,
+    "owner": 27,
+    "book": 100,
+    "page": 1
+  },
+  "events": [
+    {"dot_type": "down", "x": 120.0, "y": 240.0, "pressure": 0.15, "timestamp_ms": 1710000000000},
+    {"dot_type": "move", "x": 124.0, "y": 241.0, "pressure": 0.42, "timestamp_ms": 1710000000012},
+    {"dot_type": "up", "x": 130.0, "y": 243.0, "pressure": 0.0, "timestamp_ms": 1710000000027}
+  ]
+}
