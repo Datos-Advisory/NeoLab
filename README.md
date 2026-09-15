@@ -13,6 +13,8 @@ For old Neo Studio recovery, follow [the private recovery workflow](docs/recover
 
 Official NeoLAB-ready Ncode downloads are catalogued in [Ncode papers](docs/ncode-papers.md). They are external vendor files; NeoLab links to them and does not redistribute them.
 
+NeoLab's current direction is documented in [product scope](docs/product-scope.md) and the [official NeoLAB GitHub review](docs/neo-github-review.md). The first deliverable is a local, user-owned Ink Vault that preserves raw handwriting before transcription or NLP.
+
 ## Status
 
 Planning scaffold only. NeoLab has no NeoLAB endorsement, Ncode allocation, print approval, device-support guarantee, or commercial SDK license.
