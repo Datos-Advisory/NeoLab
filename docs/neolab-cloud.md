@@ -18,6 +18,8 @@ The Windows guide lists Windows 10 or later, Bluetooth 4.0 or later, Chrome, 2 G
 
 NeoStudio Web is the browser-facing part of this supported path. The vendor guide says NeoLAB Cloud must be running before signing in to NeoStudio Web; after login, the Cloud-connected device list is synchronized to the web application.
 
+If no device is listed in NeoStudio Web, use **Connected Devices** → **+ Device Connection**, then choose the pen from the devices detected by the NeoLAB Cloud desktop application. If it is already connected in NeoLAB Cloud, its device list links automatically at NeoStudio Web login.
+
 Writing with an Ncode page using a pen connected through NeoLAB Cloud opens the matching page and displays handwriting in real time. The web app also documents page editing, bookmarks, and notebook locking/renaming.
 
 There is an important capture constraint: one connected pen is assigned to one NeoLAB service/window at a time. When NeoStudio and Grida Board are both open, NeoStudio takes priority until the user explicitly transfers the device. With multiple NeoStudio windows, the most recently opened window receives the connected-device list. For a reliable archive run, keep one NeoStudio Web window open and avoid switching the pen between services.
