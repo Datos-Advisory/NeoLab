@@ -11,6 +11,8 @@ Read [the evidence-based baseline](docs/baseline.md) and [the data contract](doc
 
 For old Neo Studio recovery, follow [the private recovery workflow](docs/recovery.md). The included inventory tool reads files without editing them and produces a local manifest; private source data is ignored by Git.
 
+For the vendor-supported desktop-sync route and the limits of the documentation MCP connection, see [NeoLAB Cloud bridge](docs/neolab-cloud.md).
+
 Official NeoLAB-ready Ncode downloads are catalogued in [Ncode papers](docs/ncode-papers.md). They are external vendor files; NeoLab links to them and does not redistribute them.
 
 NeoLab's current direction is documented in [product scope](docs/product-scope.md) and the [official NeoLAB GitHub review](docs/neo-github-review.md). The first deliverable is a local, user-owned Ink Vault that preserves raw handwriting before transcription or NLP.
