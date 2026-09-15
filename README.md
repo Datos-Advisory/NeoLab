@@ -9,6 +9,8 @@ NeoLab is a vendor-neutral project for structured daily paper templates and a fu
 
 Read [the evidence-based baseline](docs/baseline.md) and [the data contract](docs/data-contract.md) first.
 
+For old Neo Studio recovery, follow [the private recovery workflow](docs/recovery.md). The included inventory tool reads files without editing them and produces a local manifest; private source data is ignored by Git.
+
 Official NeoLAB-ready Ncode downloads are catalogued in [Ncode papers](docs/ncode-papers.md). They are external vendor files; NeoLab links to them and does not redistribute them.
 
 ## Status
