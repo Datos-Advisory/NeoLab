@@ -19,6 +19,8 @@ NeoLab's current direction is documented in [product scope](docs/product-scope.m
 
 The repository-level use boundary is recorded in the [NeoSmartpen license audit](docs/neo-license-audit.md).
 
+Current product-support facts are kept separately in the [official support reference](docs/official-support-reference.md).
+
 The first executable component is [Ink Vault](docs/ink-vault.md): it validates a raw-ink session locally before it is replayed, rendered, transcribed, or searched.
 
 ## Status
