@@ -17,6 +17,8 @@ Official NeoLAB-ready Ncode downloads are catalogued in [Ncode papers](docs/ncod
 
 NeoLab's current direction is documented in [product scope](docs/product-scope.md) and the [official NeoLAB GitHub review](docs/neo-github-review.md). The first deliverable is a local, user-owned Ink Vault that preserves raw handwriting before transcription or NLP.
 
+The repository-level use boundary is recorded in the [NeoSmartpen license audit](docs/neo-license-audit.md).
+
 The first executable component is [Ink Vault](docs/ink-vault.md): it validates a raw-ink session locally before it is replayed, rendered, transcribed, or searched.
 
 ## Status
