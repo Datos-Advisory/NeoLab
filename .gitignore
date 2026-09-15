@@ -2,6 +2,7 @@
 node_modules/
 dist/
 build/
+__pycache__/
 
 # Local source material and proprietary assets
 tmp/
@@ -14,4 +15,5 @@ tmp/
 # Captures and exports may contain personal data
 captures/
 exports/
+private/
 *.neonote
