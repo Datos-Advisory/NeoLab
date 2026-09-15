@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Datos-Advisory/NeoLab/schema/stroke-event-v0.1.json",
+  "title": "NeoLab Stroke Event v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "source", "page", "dot_type", "x", "y", "pressure", "timestamp_ms"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "source": {"type": "string", "enum": ["neopen_adapter", "neonotes_import", "manual"]},
+    "page": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["section", "owner", "book", "page"],
+      "properties": {
+        "section": {"type": "integer", "minimum": 0},
+        "owner": {"type": "integer", "minimum": 0},
+        "book": {"type": "integer", "minimum": 0},
+        "page": {"type": "integer", "minimum": 0}
+      }
+    },
+    "dot_type": {"type": "string", "enum": ["down", "move", "up", "hover", "info", "error"]},
+    "x": {"type": "number"},
+    "y": {"type": "number"},
+    "pressure": {"type": "number", "minimum": 0},
+    "timestamp_ms": {"type": "integer", "minimum": 0},
+    "time_diff_ms": {"type": "integer", "minimum": 0},
+    "pen_tip_type": {"type": "string", "enum": ["normal", "eraser", "unknown"]},
+    "color_rgba": {"type": "string", "pattern": "^[0-9A-Fa-f]{8}$"},
+    "raw_source_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  }
+}
